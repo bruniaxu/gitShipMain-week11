@@ -96,7 +96,7 @@ class Person {
   void backdrop(){
     //fill left half of screen with something
     //0, 0 --> 12, 11.25
-    fill(grey);
+    fill(#46937C);
     rect(0, 0, width, 281.25);
   }
   
@@ -204,9 +204,9 @@ class Person {
     //12 $ per line, 4 lines max --> 48 character message
     //+40 in y for each line at font 4
     fill(shirt);
-    Font.draw(320, 50, 4, _h, _e, _r, _e, _space, _o, _n, _space, _m, _a, _n, _y);
-    Font.draw(320, 90, 4, _m, _o, _o, _n, _s, _space, _w, _e, _space, _d, _o);
-    Font.draw(320, 130, 4, _m, _a, _n, _y, _space, _t, _h, _i, _n, _g, _s);
-    Font.draw(320, 170, 4, _w, _i, _t, _h, _space, _m, _o, _o, _n, _s, _period);
+    Font.draw(320, 50, 4, _w, _e, _space, _c, _o, _m, _e, _space, _i, _n);
+    Font.draw(320, 90, 4, _p, _e, _a, _c, _e, _exclam);
+    Font.draw(320, 130, 4, _2);
+    Font.draw(320, 170, 4, _3);
   }
 }
